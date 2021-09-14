@@ -1,0 +1,1 @@
+En esta carpeta voy a subir mis ejercicios del curso de JavaScript de FreeCodeCamp.
