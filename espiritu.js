@@ -4,6 +4,10 @@ var frase = "";
   frase += palabra + " ";
 }); */
 
+/* arreglo.forEach((palabra) => {
+    frase += `${palabra} 10 `;
+  }); */
+
 for (var index = 0; index < arreglo.length; index++) {
   frase += arreglo[index] + " ";
 }
