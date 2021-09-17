@@ -49,4 +49,7 @@ Dentro de las variables se pueden encontrar 2 tipos de informacion:
 *La String de una variable puede formularse utilizando los datos de otra. Ejemplo:
     var (nombre) = "dghas" + (nombre otra variable) + "sdfgsd";
 ---
-*
+*Con la funcion ".length" se puede averiguar la longitud de una String. Ejemplo:
+    console.log("pingo".length);
+    (5)
+---
