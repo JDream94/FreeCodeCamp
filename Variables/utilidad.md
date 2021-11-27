@@ -53,12 +53,19 @@ Dentro de las variables se pueden encontrar 2 tipos de informacion:
     console.log("pingo".length);
     (5)
 ---
-*En ES6 se añadio una nueva palabra clave para crear variable. El nombre es "let", y a diferencia de "var" con esta palabra cuando utilizas sin querer el nombre de una variable en vez de cambiar su contenido como pasaba con var "let" te avisa que dicho nombre ya tiene un valor. ejemplo:
+*En ES6 se añadio dos nueva palabras claves para crear variables. Sus nombres son "let", y "const" a diferencia de "var" con estas palabras cuando utilizas sin querer el nombre de una variable en vez de cambiar su contenido como pasaba con var "let" te avisa que dicho nombre ya tiene un valor y "const" hace que la string sea solo de lectura. ejemplo:
 var hola = "si";
 var hola = "no";
 console.log(hola); //mostraria "no"//
 
 let hola = "si";
 let hola = "no";
-console.log(hola); //muestra error//
+console.log(hola); //muestra error en la consola//
+
+const HOLA_BRO = "si";
+const HOLA_BRO = "no";
+console.log(HOLA_BRO); //muestra error en la consola, pero no cambia el valor//
+---
+*Algo que la gente realiza cuando utiliza "const" es poner el nombre de la variable en mayusculas y separando el nombre con "_". ejemplo:
+const ALGO_ASI;
 ---
