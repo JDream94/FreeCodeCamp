@@ -53,3 +53,12 @@ Dentro de las variables se pueden encontrar 2 tipos de informacion:
     console.log("pingo".length);
     (5)
 ---
+*En ES6 se añadio una nueva palabra clave para crear variable. El nombre es "let", y a diferencia de "var" con esta palabra cuando utilizas sin querer el nombre de una variable en vez de cambiar su contenido como pasaba con var "let" te avisa que dicho nombre ya tiene un valor. ejemplo:
+var hola = "si";
+var hola = "no";
+console.log(hola); //mostraria "no"//
+
+let hola = "si";
+let hola = "no";
+console.log(hola); //muestra error//
+---
