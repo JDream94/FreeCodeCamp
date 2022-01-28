@@ -52,6 +52,7 @@ Dentro de las variables se pueden encontrar 2 tipos de informacion:
 *Con la funcion ".length" se puede averiguar la longitud de una String. Ejemplo:
     console.log("pingo".length);
     (5)
+    //usando: (nombreDeLaString) = (nombreDeOtraString).length; podras asignarle a la primera string el valor del tamaño de la 2 string//
 ---
 *En ES6 se añadio dos nueva palabras claves para crear variables. Sus nombres son "let", y "const" a diferencia de "var" con estas palabras cuando utilizas sin querer el nombre de una variable en vez de cambiar su contenido como pasaba con var "let" te avisa que dicho nombre ya tiene un valor y "const" hace que la string sea solo de lectura. ejemplo:
 var hola = "si";
@@ -69,3 +70,4 @@ console.log(HOLA_BRO); //muestra error en la consola, pero no cambia el valor//
 *Algo que la gente realiza cuando utiliza "const" es poner el nombre de la variable en mayusculas y separando el nombre con "_". ejemplo:
 const ALGO_ASI;
 ---
+*
