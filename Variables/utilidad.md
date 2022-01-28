@@ -70,4 +70,8 @@ console.log(HOLA_BRO); //muestra error en la consola, pero no cambia el valor//
 *Algo que la gente realiza cuando utiliza "const" es poner el nombre de la variable en mayusculas y separando el nombre con "_". ejemplo:
 const ALGO_ASI;
 ---
+*Los programas como JS no empiezan los conteos desde "1" como los humanos, ellos los arrancan desde "0".
+Entonces si por ejemplo tengo una var con contenido "charles" el caracter en el indice 0 seria "C", Así que si declaramos const firstName = "Charles", puedes obtener el valor de la primera letra de la cadena usando firstName[0].
+No se puede cambiar un caracter individual de una string literal.S
+---
 *
